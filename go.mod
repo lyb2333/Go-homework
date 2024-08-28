@@ -17,7 +17,11 @@ require (
 	gorm.io/gorm v1.25.11
 )
 
-require github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common v1.0.986
+require (
+	github.com/DATA-DOG/go-sqlmock v1.5.0
+	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common v1.0.986
+	go.uber.org/mock v0.4.0
+)
 
 require (
 	filippo.io/edwards25519 v1.1.0 // indirect
@@ -47,7 +51,6 @@ require (
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
-	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/pelletier/go-toml/v2 v2.2.2 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/sms v1.0.986
